@@ -1,1 +1,1 @@
-# Self Driving Car with Javascript and CNN
+# Self Driving Car with Javascript and Neural Networks
