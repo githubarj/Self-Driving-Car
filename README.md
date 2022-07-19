@@ -2,7 +2,7 @@
 
 This is a projects that simulates a self driving car. It utilises Neural Networks written
 in **JavaScript**. It also has visualization of the Neural Network working.  
-I have attached a video of the live demo of it working at the end of the readme
+I have attached a video of the live demo at the end of the readme
 # How to run the code
 ## Requirements
 
