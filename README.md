@@ -12,5 +12,6 @@ I have attached a video of the live demo of it working at the end of the readme
 
 ```
 git clone https://github.com/githubarj/Self-Driving-Car.git
+cd Self-Driving-Car
 start index.html
 ```
