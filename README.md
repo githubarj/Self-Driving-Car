@@ -15,3 +15,5 @@ git clone https://github.com/githubarj/Self-Driving-Car.git
 cd Self-Driving-Car
 start index.html
 ```
+# Video of live demo
+[self-driving.webm](https://user-images.githubusercontent.com/85483196/179779732-77b530fd-9c13-4475-aef2-2d1d0ff549c5.webm)
