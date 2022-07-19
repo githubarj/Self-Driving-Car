@@ -15,25 +15,24 @@ class Car {
   }
 
   update() {
-    this.#move()
+    this.#move();
   }
-  #move(){
-    if (this.controls.foward) {
+
+  #move() {
+    if (this.controls.forward) {
       this.speed += this.acceleration;
     }
     if (this.controls.reverse) {
       this.speed -= this.acceleration;
     }
 
-    //capping the speed going foward
     if (this.speed > this.maxSpeed) {
       this.speed = this.maxSpeed;
     }
-    //caping th reversing speed, the - is to indicate reverse
     if (this.speed < -this.maxSpeed / 2) {
       this.speed = -this.maxSpeed / 2;
     }
-    //applying friction
+
     if (this.speed > 0) {
       this.speed -= this.friction;
     }
@@ -44,22 +43,16 @@ class Car {
       this.speed = 0;
     }
 
-    //cap movement if standing in place
-
-    //left and right controls
-    //deciding whther moving backwards or fowards
     if (this.speed != 0) {
       const flip = this.speed > 0 ? 1 : -1;
-      //movement
       if (this.controls.left) {
-        this.angle += 0.03 * flip; //using unit circle
+        this.angle += 0.03 * flip;
       }
       if (this.controls.right) {
         this.angle -= 0.03 * flip;
       }
     }
 
-    //make the car move based on the angle
     this.x -= Math.sin(this.angle) * this.speed;
     this.y -= Math.cos(this.angle) * this.speed;
   }
