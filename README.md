@@ -16,4 +16,4 @@ cd Self-Driving-Car
 start index.html
 ```
 # Video of live demo
-[self-driving.webm](https://user-images.githubusercontent.com/85483196/179779732-77b530fd-9c13-4475-aef2-2d1d0ff549c5.webm)
+https://user-images.githubusercontent.com/85483196/179800359-65e45689-c1c1-4d8a-9a88-61506d5a550b.mp4
